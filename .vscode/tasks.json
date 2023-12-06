@@ -8,12 +8,12 @@
         "isDefault": true
       },
       "isBackground": true,
-      "dependsOn": ["serve"]
+      "dependsOn": ["dev"]
     },
     {
-      "label": "serve",
+      "label": "dev",
       "type": "npm",
-      "script": "serve",
+      "script": "dev",
       "isBackground": true,
       "problemMatcher": "$tsc",
       "group": "build"

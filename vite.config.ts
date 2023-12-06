@@ -20,10 +20,9 @@ export default defineConfig({
       pn: fileURLToPath(
         new URL(
           "./node_modules/@postnord/web-components/components",
-          import.meta.url
-        )
+          import.meta.url,
+        ),
       ),
     },
-    extensions: [".js", ".ts"],
   },
 });
