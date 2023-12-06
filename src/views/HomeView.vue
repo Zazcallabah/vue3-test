@@ -2,6 +2,7 @@
 import countryCodes from "@/components/codes";
 import { useStore } from "@/stores/store";
 import { storeToRefs } from "pinia";
+import { wrench } from "pn-design-assets/pn-assets/icons";
 
 const store = useStore();
 const { choice } = storeToRefs(store);
@@ -12,7 +13,7 @@ const setCountry = (e: any) => {
 
 <template>
   <section>
-    <h2>Issue 1 - pn-select</h2>
+    <h2>Test 1 - pn-select</h2>
     <p>
       The pn-select component does not properly display initial value. If you
       refresh the page, the select will be blank despite the ref having a
@@ -34,6 +35,10 @@ const setCountry = (e: any) => {
       </pn-option>
     </pn-select>
     <p>you selected: {{ choice }}</p>
+  </section>
+  <section>
+    <h2>Test 2 - icons</h2>
+    <pn-icon :symbol="wrench" />
   </section>
 </template>
 

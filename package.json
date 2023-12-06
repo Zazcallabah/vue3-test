@@ -17,8 +17,9 @@
   },
   "dependencies": {
     "@postnord/web-components": "^5.1.2",
-    "pn-design-assets": "^1.7.1",
     "pinia": "^2.1.7",
+    "pn-design-assets": "^1.7.1",
+    "rollup-plugin-visualizer": "^5.10.0",
     "vue": "^3.3.10",
     "vue-router": "^4.2.5"
   },
